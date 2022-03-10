@@ -1,0 +1,8 @@
+<header class="header">
+    <h1>Tareas</h1>
+    <input  class="new-todo" 
+            placeholder="¿Que necesitas hacer?" 
+            [formControl]="txtInput" 
+            (keyup.enter)="crearTarea()" 
+            autofocus>
+</header>
