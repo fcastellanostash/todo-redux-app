@@ -11,11 +11,14 @@ import { environment } from 'src/environments/environment';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppReducer } from './app.reducer';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent
+    FooterComponent,
+    SplashScreenComponent
+
   ],
   imports: [
     BrowserModule,
